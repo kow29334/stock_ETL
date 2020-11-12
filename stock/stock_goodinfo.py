@@ -115,7 +115,7 @@ if count == 2:
 
         #print('Request IP:',proxies)
 
-        res.encoding = 'utf-8'
+        res.encoding = 'utf-8' #設定編碼
 
         soup_tai = BeautifulSoup(res.text, 'html.parser')
 
